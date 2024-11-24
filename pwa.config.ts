@@ -3,9 +3,9 @@ import type { Config } from './types';
 export default {
   version: '1.0',
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'TGX News',
+  shortName: 'TGXNews',
+  description: 'Good News From Trenggalek',
   direction: 'auto',
   language: 'en-US',
   backgroundColor: '#fff',
@@ -33,9 +33,9 @@ export default {
   pwa: {
     logs: true,
     // OneSignal is not available if you are not using cloudflare workers
-    oneSignalEnabled: false,
+    oneSignalEnabled: true,
     oneSignalConfig: {
-      appId: '********-****-****-****-************',
+      appId: 'e279635a-5310-4095-adfa-98c5629d17ab',
       allowLocalhostAsSecureOrigin: true,
     },
   },
