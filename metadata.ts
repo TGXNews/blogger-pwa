@@ -1,5 +1,5 @@
 /**
- * This is auto generated metadata file, generated at: Mon Nov 25 2024 19:52:40 GMT+0000 (Coordinated Universal Time)
+ * This is auto generated metadata file, generated at: Mon Nov 25 2024 19:55:54 GMT+0000 (Coordinated Universal Time)
  * Prevent making any changes here
  */
 
@@ -27,5 +27,5 @@ export interface Metadata {
 }
 
 export const metadata = JSON.parse(
-  '{"github":{"repository":"TGXNews/blogger-pwa","branch":"main"},"pwa":{"oneSignalEnabled":true,"oneSignalSDK":"https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js","oneSignalConfig":{"appId":"e279635a-5310-4095-adfa-98c5629d17ab","allowLocalhostAsSecureOrigin":true},"logs":true,"serviceWorker":{"source":"/app/serviceworker.js","scope":"/"}},"build":{"hash":"KSGB2H2WsyXfZfp1o1711"}}',
+  '{"github":{"repository":"TGXNews/blogger-pwa","branch":"main"},"pwa":{"oneSignalEnabled":true,"oneSignalSDK":"https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js","oneSignalConfig":{"appId":"e279635a-5310-4095-adfa-98c5629d17ab","allowLocalhostAsSecureOrigin":true},"logs":true,"serviceWorker":{"source":"/app/serviceworker.js","scope":"/"}},"build":{"hash":"IsAjsd8HmoU_CGrHxJJsF"}}',
 ) as Metadata;
