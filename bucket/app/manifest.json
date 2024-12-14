@@ -1,12 +1,12 @@
 {
-  "name": "My Blog",
+  "name": "TGX News",
   "id": "/",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "short_name": "TGXNews",
+  "description": "Good News From Trenggalek",
   "version": "1.0",
   "dir": "auto",
   "lang": "en-US",
-  "orientation": "any",
+  "orientation": "natural",
   "start_url": "/?utm_source=homescreen",
   "scope": "/",
   "display": "standalone",
@@ -116,10 +116,10 @@
   ],
   "shortcuts": [
     {
-      "name": "Shortcut 1",
-      "short_name": "Shortcut 1",
-      "description": "Shortcut 1 description goes here...",
-      "url": "/search/label/shortcut-1?utm_source=homescreen",
+      "name": "About",
+      "short_name": "About",
+      "description": "Pelajari tentang kami",
+      "url": "https://www.tgxnews.com/p/tentang-kami.html",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
@@ -128,10 +128,10 @@
       ]
     },
     {
-      "name": "Shortcut 2",
-      "short_name": "Shortcut 2",
-      "description": "Shortcut 2 description goes here...",
-      "url": "/search/label/shortcut-2?utm_source=homescreen",
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Hubuungi Kami.",
+      "url": "https://www.tgxnews.com/p/kontak.html",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
