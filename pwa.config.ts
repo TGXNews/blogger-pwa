@@ -2,9 +2,9 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'TGX News',
+  shortName: 'TGX',
+  description: 'Good News From Trenggalek',
   direction: 'auto',
   language: 'en-US',
   backgroundColor: '#fff',
@@ -17,24 +17,24 @@ export default {
   preferRelatedApplications: false,
   shortcuts: [
     {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
+      name: 'About',
+      shortName: 'About',
+      description: 'Halaman tentang kami',
+      url: 'https://www.tgxnews.com/p/tentang-kami.html',
     },
     {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
+      name: 'Kontak',
+      shortName: 'Kontak',
+      description: 'Hubungi kami',
+      url: 'https://www.tgxnews.com/p/kontak.html',
     },
   ],
   pwa: {
     logs: true,
     // OneSignal is only available if you are using cloudflare workers
-    oneSignalEnabled: false, // To enable OneSignal, set this to true
+    oneSignalEnabled: true, // To enable OneSignal, set this to true
     oneSignalConfig: {
-      appId: '********-****-****-****-************', // Replace with your OneSignal App Id
+      appId: '7e7c0c56-24e6-404a-97cc-60aeb46f3deb', // Replace with your OneSignal App Id
       allowLocalhostAsSecureOrigin: true,
     },
   },
